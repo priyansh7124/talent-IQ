@@ -7,7 +7,9 @@ import {
 } from "@clerk/clerk-react";
 import React from "react";
 import toast from "react-hot-toast";
+// import axiosInstance from "../lib/axios";
 const HomePage = () => {
+  // await axiosInstance.get("/session/123")
   return (
     <div>
       {/* <h1 className="text-red-500 bg-orange-400 p-10 text-3xl">

@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/priyansh7124/talent-IQ/issues"
   },
-  "homepage": "https://github.com/priyansh7124/talent-IQ#readme"
+  "homepage": "https://github.com/priyansh7124/talent-IQ#readme",
+  "dependencies": {}
 }
