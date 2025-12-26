@@ -23,8 +23,12 @@ function App() {
           path="/problems"
           element={isSignedIn ? <ProblemsPage /> : <Navigate to={"/"} />}
         />
+        <Route
+          path="/problem/:id"
+          element={isSignedIn ? <ProblemsPage /> : <Navigate to={"/"} />}
+        />
       </Routes>
-      <Toaster />
+      <Toaster toastOptions={{ duration: 3000 }} />
     </>
   );
 }
