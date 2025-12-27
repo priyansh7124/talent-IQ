@@ -1,7 +1,7 @@
 import React from "react";
 
 const OutputPanel = () => {
-  return <div></div>;
+  return <div>Output Panel</div>;
 };
 
 export default OutputPanel;

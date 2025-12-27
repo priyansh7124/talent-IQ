@@ -17,7 +17,7 @@ export async function executeCode(language, code) {
   try {
     const languageConfig = LANGUAGE_VERSIONS[language];
 
-    if (!languageConfig) {
+    if (!languageConfig) { // if the language is not from the options 
       return {
         success: false,
         error: `Unsupported language: ${language}`,
